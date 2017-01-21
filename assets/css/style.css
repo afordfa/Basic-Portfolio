@@ -83,7 +83,7 @@ h3 {
 }
 
 
-p, footer, input, form, a {
+#introduction, footer, input, form, a {
 	color: #777777;
 	text-decoration: none;
 }
@@ -151,9 +151,15 @@ footer {
 
 
 /*ABOUT ME PAGE*/
-#headshot, p {
+#headshot, #introduction {
 	float: left;
 	margin: 10px;
+}
+
+
+#introduction em{
+	color: #4d1979;
+	font-weight: bold;
 }
 
 /*END ABOUT ME PAGE*/
